@@ -1,0 +1,27 @@
+.head {
+    background-color: #ffc0cb;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;    
+}
+
+.ear {
+    background-color: #ffc0cb;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.eye {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

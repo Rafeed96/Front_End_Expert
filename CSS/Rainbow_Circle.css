@@ -2,12 +2,6 @@
 
 body {
     background-color: darkgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin: 0;
-    height: 100vh;
 }
 
 
@@ -15,18 +9,23 @@ body {
     background-color: #ff0000;
     height: 300px;
     width: 300px;
+    border-radius: 50%;
+    align-items: center;
 }
 
 .orange {
     background-color: #ffa500;
     height: 250px;
     width: 250px;
+    border-radius: 50%;
+    align-items: center;
 }
 
 .yellow {
     background-color: #ffff00;
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
 
 
@@ -35,6 +34,7 @@ body {
     background-color: #008000;
     height: 150px;
     width: 150px;
+    border-radius: 50%;
 }
 
 
@@ -44,6 +44,7 @@ body {
     height: 100px;
     width: 100px;
     background-color: #0000ff;
+    border-radius: 50%;
 }
 
 
@@ -51,4 +52,5 @@ body {
     background-color: #800080;
     height: 50px;
     width: 50px;
+    border-radius: 50%;
 }

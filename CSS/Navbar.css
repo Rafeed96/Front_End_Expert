@@ -6,11 +6,26 @@ nav {
     display: flex;
     background-color: #6e072d;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     font-size: 18px;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 27px;
+    padding-right: 27px;
+    
 }
 
 ul:hover {

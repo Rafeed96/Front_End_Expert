@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(18, 39, 53);
+  }
+  
+nav {
+    display: flex;
+    background-color: #6e072d;
+    color: white;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+ul:hover {
+    background-color: #b90e4d;
+}

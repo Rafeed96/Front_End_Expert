@@ -5,6 +5,10 @@
     margin: 20px;
     border-radius: 50%;    
     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
 }
 
 .ear {
@@ -14,6 +18,11 @@
     border-radius: 50%;
     z-index: -1;
     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+
 }
 
 .eye {
@@ -25,6 +34,10 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
 }
 
 .pupil {
@@ -32,6 +45,10 @@
     height: 25px;
     width: 25px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
 }
 
 .nose {
@@ -40,6 +57,11 @@
     width: 100px;
     border-radius: 35%;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .nostril {
@@ -47,4 +69,5 @@
     height: 30px;
     width: 25px;
     border-radius: 50%;
+    justify-content: space-between;
 }

@@ -4,6 +4,7 @@
     width: 200px;
     margin: 20px;
     border-radius: 50%;    
+    border: 5px solid black;
 }
 
 .ear {
@@ -12,6 +13,7 @@
     width: 50px;
     border-radius: 50%;
     z-index: -1;
+    border: 5px solid black;
 }
 
 .eye {
@@ -19,9 +21,30 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
 }
 
+.pupil {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.nose {
+    background-color: #f57187;
+    height: 60px;
+    width: 100px;
+    border-radius: 35%;
+    border: 2px solid black;
+}
+
+.nostril {
+    background-color: black;
+    height: 30px;
+    width: 25px;
+    border-radius: 50%;
+}

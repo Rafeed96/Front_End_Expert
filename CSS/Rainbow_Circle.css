@@ -1,56 +1,35 @@
+/*  Write your code here. */
 
-
-body {
-    background-color: darkgrey;
-}
-
-
-.red {
-    background-color: #ff0000;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    align-items: center;
-}
-
-.orange {
-    background-color: #ffa500;
+#outer {
     height: 250px;
     width: 250px;
+    border:  25px solid #ff0000;
+    background-color: #ffa500;
     border-radius: 50%;
+    display: flex;   
+    justify-content: center;
     align-items: center;
 }
 
-.yellow {
-    background-color: #ffff00;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
-
-
-.green {
-    background-color: #008000;
+#middle {
+    
     height: 150px;
     width: 150px;
+    border: 25px solid #ffff00;
+    background-color: #008000;
     border-radius: 50%;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-
-.blue {
-    height: 100px;
-    width: 100px;
-    background-color: #0000ff;
-    border-radius: 50%;
-}
-
-
-.purple {
-    background-color: #800080;
+#inner {
     height: 50px;
     width: 50px;
+    border: 25px solid #0000ff;
+    background-color: #800080;
     border-radius: 50%;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
 }

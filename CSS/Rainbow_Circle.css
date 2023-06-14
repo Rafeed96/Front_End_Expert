@@ -1,0 +1,54 @@
+
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.red {
+    background-color: #ff0000;
+    height: 300px;
+    width: 300px;
+}
+
+.orange {
+    background-color: #ffa500;
+    height: 250px;
+    width: 250px;
+}
+
+.yellow {
+    background-color: #ffff00;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.green {
+    background-color: #008000;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: #0000ff;
+}
+
+
+.purple {
+    background-color: #800080;
+    height: 50px;
+    width: 50px;
+}

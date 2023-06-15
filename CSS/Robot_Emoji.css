@@ -53,9 +53,9 @@
 
 .nose {
 
-    height: 30px;
-    width: 30px;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 15px solid #c90a0a;
+    height: 0px;
+    width: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #c90a0a;
 }

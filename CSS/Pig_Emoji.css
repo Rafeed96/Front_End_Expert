@@ -5,15 +5,14 @@
     margin-top: 20px;
     border-radius: 50%;    
     border: 5px solid black;
-    position: relative;
-    
+    position: relative;    
 }
 
 .ear {
     background-color: #ffc0cb;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 100%;
     position: absolute;
     z-index: -1;
     border: 5px solid black;
@@ -24,38 +23,29 @@
     left: 10px;
 }
 
-.ear:nth-child(2) {
+.ear:last-child {
     right: 10px;
 }
-
-.head .ear {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;  
-}
-
-
 
 .eye {
     background-color: white;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 100%;  
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    position: absolute;
+    top: 40px;
 }
 
 .eye:first-child {
     left: 30px;
-    top: 40px;
 }
 
-.eye:nth-child(2) {
+.eye:last-child {
     right: 30px;
-    top: 40px;
 }
 
 .pupil {
@@ -78,7 +68,9 @@
     justify-content: space-around;
     position: absolute;
     bottom: 30px;
-    left: 50px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
 }
 
 .nostril {

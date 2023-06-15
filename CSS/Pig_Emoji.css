@@ -6,20 +6,9 @@
     border-radius: 50%;    
     border: 5px solid black;
     display: flex;
-
     align-items: center;    
     flex-direction: column;
-    justify-content: space-around;
-}
-
-.ears {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 500px;
-
 }
 
 .ear {
@@ -30,15 +19,17 @@
     z-index: -1;
     border: 5px solid black;
     justify-content: space-between;
-}
-
-
-.eyes {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
 }
+
+.head .ear {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;  
+    margin: 15px;  
+}
+
 
 
 .eye {
@@ -49,8 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-
+    border: 2px solid black
 }
 
 .pupil {

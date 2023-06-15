@@ -7,8 +7,10 @@
     border: 5px solid black;
     display: flex;
     align-items: center;    
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    
 }
 
 .ear {
@@ -16,18 +18,27 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    position: absolute;
     z-index: -1;
     border: 5px solid black;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    top: -10px;
+}
+
+.ear:first-child {
+    left: 10px;
+}
+
+.ear:nth-child(2) {
+    right: 10px;
 }
 
 .head .ear {
     display: flex;
     justify-content: space-between;
-    flex-direction: column-reverse;  
-    margin: 15px;  
+    flex-direction: row;  
 }
 
 
@@ -40,7 +51,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black
+    border: 2px solid black;
+    position: absolute;
+}
+
+.eye:first-child {
+    left: 30px;
+    top: 40px;
+}
+
+.eye:nth-child(2) {
+    right: 30px;
+    top: 40px;
 }
 
 .pupil {
@@ -61,6 +83,7 @@
     align-items: center;    
     flex-direction: row;
     justify-content: space-around;
+    position: absolute;
 }
 
 .nostril {

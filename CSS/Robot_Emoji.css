@@ -1,0 +1,21 @@
+.head {
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    background-color: #a4d9eb;
+    border: 5px solid #9bbcc2;
+    border-radius: 20px;
+}
+
+.bulb {
+    width: 30px;
+    height: 30px;
+    background-color: #ffa500;
+    border-radius: 100%;
+}
+
+.stick {
+    width: 10px;
+    height: 15px;
+    background-color: #808080;
+}

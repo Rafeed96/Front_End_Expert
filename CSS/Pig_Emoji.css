@@ -84,6 +84,8 @@
     flex-direction: row;
     justify-content: space-around;
     position: absolute;
+    bottom: 30px;
+    left: 50px;
 }
 
 .nostril {

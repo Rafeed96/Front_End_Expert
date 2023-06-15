@@ -59,3 +59,17 @@
     border-right: 15px solid transparent;
     border-bottom: 30px solid #c90a0a;
 }
+
+.mouth {
+    width: 100px;
+    height: 25px;
+    background-color: #dedede;
+    border: 1px solid black;
+    border-radius: 20px;
+    bottom: 25px;
+}
+
+.teeth {
+    width: 5px;
+    background-color: black;
+}

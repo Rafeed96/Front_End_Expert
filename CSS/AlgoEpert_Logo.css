@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+
+#wrapper {
+    background-color: #02203c;
+}
+
+#logo {
+    height: 30px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}

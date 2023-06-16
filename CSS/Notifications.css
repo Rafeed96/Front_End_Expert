@@ -1,7 +1,6 @@
-.wrapper {
+#wrapper {
     width: 280px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     border-radius: 10px;
     background-color: lightgrey;
 }
@@ -11,10 +10,11 @@ h1{
     justify-content: center;
     align-items: center;
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .notification {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     border-radius: 10px;

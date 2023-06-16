@@ -11,4 +11,11 @@ body {
     width: 100px;
     border-radius: 50%;
     border: 5px solid white;
+    rotate: 45deg;
+}
+
+h1 {
+    rotate: -45deg;
+    color: white;
+    padding-left: 200px;
 }

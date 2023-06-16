@@ -30,11 +30,16 @@ img {
     border-radius: 50%;
 }
 
+.user {
+    font-weight: bold;
+}
+
 p {
    margin-left: 10px;
 }
 
-span {
+.time {
     font-size: 12px;
-    
+    font-weight: normal;
+    font-style: italic;
 }

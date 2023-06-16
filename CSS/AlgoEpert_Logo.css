@@ -7,12 +7,33 @@ body {
 }
 
 #logo {
-    height: 30px;
-    width: 100px;
-    border-radius: 50%;
-    border: 5px solid white;
-    rotate: 45deg;
+    height: 10px;
+    width: 10px;
+    margin: 0 50px;
 }
+
+
+#logo, #logo::before, #logo::after {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#logo::before, #logo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+}
+
+#logo::before{
+    transform: translate(-50px, -15px) rotate(-45deg);
+}
+
+#logo::after{
+    transform: translate(-50px, -15px) rotate(45deg);
+}
+
 
 h1 {
     rotate: -45deg;

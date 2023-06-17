@@ -41,6 +41,8 @@
 }
 
 .eye {
+    
+    justify-content: space-between;
     height: 30px;
     width: 30px;
     top: 25px;
@@ -78,5 +80,5 @@
 .teeth {
     width: 5px;
     background-color: black;
-    height:25;
+    height: 25px;
 }

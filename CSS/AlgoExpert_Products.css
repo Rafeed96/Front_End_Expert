@@ -1,35 +1,28 @@
-/*  Write your code here. */
-
 #algo-expert {
-    /*  Write your code here. */
     background-color: #626ee3;
-  }
+}
   
-  #systems-expert {
-    /*  Write your code here. */
+#systems-expert {
     background-color: #890023;
-  }
+}
   
-  #ml-expert {
-    /*  Write your code here. */
+#ml-expert {
     background-color: #f37f1b;
-  }
+}
   
-  #frontend-expert {
-    /*  Write your code here. */
+#frontend-expert {
     background-color: #11967e;
-  }
+}
   
-  #programming-expert {
-    /*  Write your code here. */
+#programming-expert {
     background-color: #f21b3f;
-  }
+}
   
-  .product {
+.product {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
     color: white;
     font-weight: bold;
-  }
+}

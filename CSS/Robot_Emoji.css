@@ -5,9 +5,6 @@
     background-color: #a4d9eb;
     border: 5px solid #9bbcc2;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
 
@@ -29,10 +26,11 @@
     height: 50px;
     background-color: #c90a0a;
     position: absolute;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .ear:first-child {
+    left:15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -52,12 +50,15 @@
 }
 
 .nose {
-
+    display:flex;
+    justify-content: center;
+    align-items:center;
     height: 0px;
     width: 0px;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-bottom: 30px solid #c90a0a;
+    position:absolute;
 }
 
 .mouth {
@@ -67,9 +68,15 @@
     border: 1px solid black;
     border-radius: 20px;
     bottom: 25px;
+    overflow: hidden;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .teeth {
     width: 5px;
     background-color: black;
+    height:25;
 }

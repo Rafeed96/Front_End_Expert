@@ -46,3 +46,12 @@ p {
     font-weight: normal;
     font-style: italic;
 }
+
+button {
+    width: 280px;
+    background-color: #02203c;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+}

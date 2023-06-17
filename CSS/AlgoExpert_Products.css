@@ -1,29 +1,33 @@
 #algo-expert {
     background-color: #626ee3;
     width: 75%;
+    order: 2;
 }
   
 #systems-expert {
     background-color: #890023;
     width: 50%;
+    order: 0;
 }
   
 #ml-expert {
     background-color: #f37f1b;
     height: 75px;
     width: 30%;
+    order: 1;
 }
   
 #frontend-expert {
     background-color: #11967e;
-    height: 75px;
     width: 40%;
+    order: 3;
 }
   
 #programming-expert {
     background-color: #f21b3f;
-    margin-left: 10px ;
     width: 60%;
+    height:75px;
+    order: 4;
 }
   
 .product {
@@ -33,4 +37,11 @@
     height: 50px;
     color: white;
     font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
 }

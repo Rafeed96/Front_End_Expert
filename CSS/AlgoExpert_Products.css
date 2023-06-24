@@ -2,9 +2,12 @@
     background-color: #626ee3;
     width: 75%;
     order: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 #systems-expert {
+    margin-top: 10px;
     background-color: #890023;
     width: 50%;
     order: 0;
@@ -15,12 +18,14 @@
     height: 75px;
     width: 30%;
     order: 1;
+    margin-left: auto;
 }
   
 #frontend-expert {
     background-color: #11967e;
     width: 40%;
     order: 3;
+    align-self: end;
 }
   
 #programming-expert {
@@ -28,6 +33,7 @@
     width: 60%;
     height:75px;
     order: 4;
+    margin-left: 0px;
 }
   
 .product {

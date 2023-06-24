@@ -6,22 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-
-<form>
-  <label>Username:</label>
-  <input type="text" class="username" required>
-  <label>Password:</label>
-  <input type="password" class="user_password" required>
-  <label>Email:</label>
-  <input type="email" class="user_email" required>
-  <label>Phone Number:</label>
-  <input type="tel" class="user_phone">
-  <label>Date of Birth:</label>
-  <input type="date" class="user_dob">
-  <label>I agree to the TOS</label>
-  <input type="checkbox" class="user_email" required>
-  <button>Sign Up</button>
-  
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" id="phone">
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob">
+    
+    <label for="tos">I agree to the TOS</label>
+    <input type="checkbox" name="tos" id="tos" required>
+    
+    <button type="submit">Sign Up</button>
+    
+    
+  </form>
 </form>
 </body>
 </html>

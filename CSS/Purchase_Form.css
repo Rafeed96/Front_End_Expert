@@ -43,6 +43,9 @@
   }
 
   ol li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     width: 30px;
     margin-bottom: 8px;
@@ -82,16 +85,40 @@
 
   .blue-product {
     color: #626ee3;
+    border-left: 5px solid #626ee3;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    border-radius: 8px;
   }
 
   .red-product {
     color: #890023;
+    border-left: 5px solid #890023;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    border-radius: 8px;
   }
 
   .orange-product {
     color: #f37f1b;
+    border-left: 5px solid #f37f1b;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    border-radius: 8px;
   }
 
   .green-product {
     color: #11967e;
+    border-left: 5px solid #11967e;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    border-radius: 8px;
   }

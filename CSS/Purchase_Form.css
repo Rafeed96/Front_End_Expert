@@ -77,4 +77,21 @@
 
   ul label {
     margin-left: 4px;
+    list-style-type: none;
+  }
+
+  .blue-product {
+    color: #626ee3;
+  }
+
+  .red-product {
+    color: #890023;
+  }
+
+  .orange-product {
+    color: #f37f1b;
+  }
+
+  .green-product {
+    color: #11967e;
   }

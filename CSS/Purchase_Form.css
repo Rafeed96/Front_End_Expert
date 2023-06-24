@@ -60,3 +60,21 @@
     border-radius: 50%;
     color: white;
   }
+
+  ul {
+    padding: 0;
+    margin: auto;
+  }
+
+  ul li {
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  ul label {
+    margin-left: 4px;
+  }

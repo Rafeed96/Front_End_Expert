@@ -74,15 +74,12 @@
 }
 
 .nose {
-    display:flex;
-    justify-content: center;
-    align-items:center;
     height: 0px;
     width: 0px;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-bottom: 30px solid #c90a0a;
-    position:absolute;
+    margin: 20px auto;
 }
 
 .mouth {
@@ -96,7 +93,7 @@
     justify-content: space-around;
 }
 
-.teeth {
+.tooth {
     width: 5px;
     background-color: black;
 }

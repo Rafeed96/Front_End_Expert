@@ -51,8 +51,15 @@
 }
 
 .ear:last-child {
+    margin-right: -15px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-around;
+    margin: -25px 15px;
 }
 
 .eye {

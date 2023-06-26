@@ -80,6 +80,17 @@
     color: white;
   }
 
+  ol > li:not(:first-of-type)::after {
+    content: "";
+    display: block;
+    width: calc(100% - var(--circle-width));
+    height: var(--divider-line-height);
+    background-color: black;
+    position: absolute;
+    left: calc(-50% + var(--circle-radius));
+    top: calc( var(--circle-radius) + var(--circle-border-width) - var(--divider-line-height));
+  }
+
   ul {
     padding: 0;
     margin: auto;

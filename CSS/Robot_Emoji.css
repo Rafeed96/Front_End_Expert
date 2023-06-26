@@ -20,7 +20,7 @@
     width: 30px;
     height: 30px;
     background-color: #ffa500;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .stick {
@@ -79,16 +79,12 @@
     background-color: #dedede;
     border: 1px solid black;
     border-radius: 20px;
-    bottom: 25px;
-    overflow: hidden;
-    position:absolute;
+    margin: -12px auto;
     display:flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-around;
 }
 
 .teeth {
     width: 5px;
     background-color: black;
-    height: 25px;
 }

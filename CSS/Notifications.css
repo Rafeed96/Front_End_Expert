@@ -16,6 +16,9 @@ h1{
 
 .notification {
     display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 122px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -38,6 +41,7 @@ img {
 
 p {
     margin:0;
+    width: 148px;
     margin-left: 10px;
 }
 
@@ -45,6 +49,8 @@ p {
     font-size: 12px;
     font-weight: normal;
     font-style: italic;
+    margin: 0;
+    text-align: right;
 }
 
 button {

@@ -42,6 +42,18 @@
     background-color: #e0e0e0;
   }
 
+  li {
+    list-style-type: none;
+  }
+
+  #wrapper > ol {
+    display: flex;
+    padding: 0;
+    counter-reset: list-items;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   ol li {
     content: "";
     display: block;

@@ -54,6 +54,12 @@
     align-items: center;
   }
 
+  ol > li {
+    flex-basis: 100%;
+    position: relative;
+    text-align: center;
+  }
+
   ol li {
     content: "";
     display: block;

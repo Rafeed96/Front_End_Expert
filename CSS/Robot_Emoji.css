@@ -32,15 +32,20 @@
 }
 
 .ears {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(100%);
+}
+
+.ear {
     width: 10px;
     height: 50px;
     background-color: #c90a0a;
-    position: absolute;
-    justify-content: space-around;
 }
 
 .ear:first-child {
-    left:15px;
+    margin-left: -15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }

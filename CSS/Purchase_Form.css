@@ -98,12 +98,14 @@
 
   ul li {
     padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin: 12px auto;
+    height: var(--product-offering-height);    
     border-radius: 8px;
     font-weight: bold;
     background-color: white;
     list-style-type: none;
+    display: flex;
+    align-items: center;
   }
 
   ul label {
@@ -115,8 +117,6 @@
     color: #626ee3;
     border-left: 5px solid #626ee3;
     padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
     height: 40px;
     border-radius: 8px;
   }
@@ -125,8 +125,6 @@
     color: #890023;
     border-left: 5px solid #890023;
     padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
     height: 40px;
     border-radius: 8px;
   }
@@ -135,8 +133,6 @@
     color: #f37f1b;
     border-left: 5px solid #f37f1b;
     padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
     height: 40px;
     border-radius: 8px;
   }
@@ -145,8 +141,6 @@
     color: #11967e;
     border-left: 5px solid #11967e;
     padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
     height: 40px;
     border-radius: 8px;
   }

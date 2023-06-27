@@ -6,9 +6,7 @@
 }
 
 h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     text-decoration: underline;
     margin: 0;  
     margin-bottom: 10px;  

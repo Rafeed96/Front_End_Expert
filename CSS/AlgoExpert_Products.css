@@ -1,11 +1,10 @@
-#algo-expert {
-    background-color: #626ee3;
-    width: 75%;
-    order: 2;
-    margin-left: auto;
-    margin-right: auto;
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
 }
-  
+
 #systems-expert {
     margin-top: 10px;
     background-color: #890023;
@@ -20,6 +19,16 @@
     order: 1;
     margin-left: auto;
 }
+
+#algo-expert {
+    background-color: #626ee3;
+    width: 75%;
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
   
 #frontend-expert {
     background-color: #11967e;
@@ -44,10 +53,4 @@
     color: white;
     font-weight: bold;
     margin-bottom: 24px;
-}
-
-#wrapper {
-    display: flex;
-    flex-wrap: wrap;
-
 }

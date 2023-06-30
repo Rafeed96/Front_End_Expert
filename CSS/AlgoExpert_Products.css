@@ -2,9 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 24px;
 }
 
+#algo-expert {
+    background-color: #626ee3;
+    width: 75%;
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
 #systems-expert {
     margin-top: 10px;
     background-color: #890023;
@@ -19,30 +26,20 @@
     order: 1;
     margin-left: auto;
 }
-
-#algo-expert {
-    background-color: #626ee3;
-    width: 75%;
-    order: 2;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-
   
 #frontend-expert {
     background-color: #11967e;
-    width: 40%;
+    flex-basis: 40%;
     order: 3;
     align-self: end;
 }
   
 #programming-expert {
     background-color: #f21b3f;
-    width: 60%;
     height:75px;
     order: 4;
-    margin-left: 0px;
+    flex-grow: 1;
+    margin-left: 10px;
 }
   
 .product {

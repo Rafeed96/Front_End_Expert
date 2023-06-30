@@ -1,9 +1,8 @@
-body {
-    background-color: grey;
-}
-
 #wrapper {
     background-color: #02203c;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 #logo {

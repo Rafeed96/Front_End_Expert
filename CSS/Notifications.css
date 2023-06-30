@@ -23,13 +23,12 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     height: 122px;
-    
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -37,18 +36,16 @@ img {
     width: 100px;
     border: 1px solid black;
     border-radius: 50%;
-    margin-right: 10px;
 }
 
 .user {
     font-weight: bold;
-    font-weight: 700;
 }
 
 p {
     margin:0;
     width: 148px;
-    
+    margin-left: 10px;
 }
 
 .time {
@@ -59,7 +56,7 @@ p {
 }
 
 button {
-    width: 280px;
+    width: 100%;
     background-color: #02203c;
     color: white;
     font-size: 16px;

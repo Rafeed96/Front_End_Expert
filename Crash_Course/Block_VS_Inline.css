@@ -1,7 +1,10 @@
 p {
+    width: 30vw;
     border: 2px solid black;
 }
 
 em {
+    display: block;
+    margin: 10px;
     border: 2px solid blue;
 }
